@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.outer {
+    border: 9px solid blue;
+    padding: 30px 30px 30px 30px;
+    border-width: 30px;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+h3 {
+    color: gray;
+    padding: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    width: 200px;
+}
+
+.first-group,
+.second-group,
+.third-group,
+.forth-group {
+    display: flex;
+    align-items: center;
+}
+
+.form-row {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.form-row input {
+    border-radius: 4px;
+    padding-inline-end: 100px;
+}
+
+.form-output {
+    margin-top: 20px;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.key {
+    font-weight: bold;
+}
